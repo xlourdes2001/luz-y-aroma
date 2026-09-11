@@ -1,0 +1,131 @@
+[
+    
+    
+     {
+        "id": 1,
+        "nombre": "Vela de Cedro",
+        "descripcion": "Aroma cálido y amaderado, ideal para crear un ambiente acogedor.",
+        "precio": 6500,
+        "imagen": "imagenes/vela-cedro.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Vela de Bergamota",
+        "descripcion": "Fragancia fresca y cítrica con un toque elegante y delicado.",
+        "precio": 6200,
+        "imagen": "imagenes/vela-bergamota.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Vela de Abeja",
+        "descripcion": "Elaborada con cera de abeja, de aroma suave y natural.",
+        "precio": 7000,
+        "imagen": "imagenes/vela-abeja.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Vela de Rosas",
+        "descripcion": "Aroma floral y romántico que aporta delicadeza a cualquier espacio.",
+        "precio": 6000,
+        "imagen": "imagenes/vela-rosas.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Vela de Chocolate",
+        "descripcion": "Dulce y envolvente fragancia para disfrutar de un ambiente cálido.",
+        "precio": 6800,
+        "imagen": "imagenes/vela-chocolate.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Vela Coco Marrón",
+        "descripcion": "Delicioso aroma tropical con notas suaves y cremosas de coco.",
+        "precio": 6500,
+        "imagen": "imagenes/vela-coco-marron.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Vela Naranja y Coco",
+        "descripcion": "Una combinación dulce y cítrica que transmite frescura y calidez.",
+        "precio": 6700,
+        "imagen": "imagenes/vela-naranja-coco.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Vela de Frutilla",
+        "descripcion": "Aroma dulce y frutal, perfecto para darle un toque alegre al ambiente.",
+        "precio": 5900,
+        "imagen": "imagenes/vela-frutilla.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Vela de Coco",
+        "descripcion": "Fragancia cremosa y tropical que invita a relajarse y disfrutar.",
+        "precio": 6200,
+        "imagen": "imagenes/vela-coco.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Vela de Soja",
+        "descripcion": "Vela de cera de soja con una combustión suave y un aroma delicado.",
+        "precio": 7000,
+        "imagen": "imagenes/vela-soja.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Vela de Sándalo",
+        "descripcion": "Aroma profundo y amaderado que aporta calma y serenidad.",
+        "precio": 7200,
+        "imagen": "imagenes/vela-sandalo.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Vela de Limón",
+        "descripcion": "Fragancia fresca y cítrica que aporta energía y luminosidad.",
+        "precio": 5800,
+        "imagen": "imagenes/vela-limon.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Vela de Eucalipto",
+        "descripcion": "Aroma fresco y herbal que transmite una agradable sensación de frescura.",
+        "precio": 6300,
+        "imagen": "imagenes/vela-eucalipto.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Vela de Menta",
+        "descripcion": "Fragancia refrescante y ligera, ideal para renovar el ambiente.",
+        "precio": 5900,
+        "imagen": "imagenes/vela-menta.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Vela de Naranja y Canela",
+        "descripcion": "Dulce combinación de naranja y especias con un aroma cálido y envolvente.",
+        "precio": 6800,
+        "imagen": "imagenes/vela-naranja-canela.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Vela Lavanda",
+        "descripcion": "Un aroma suave y relajante.",
+        "precio": 10000,
+        "imagen": "imagenes/vela-lavanda.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Vela Vainilla",
+        "descripcion": "Un aroma dulce y cálido.",
+        "precio": 8500,
+        "imagen": "imagenes/vela-vainilla.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Vela Canela",
+        "descripcion": "Un aroma intenso y acogedor.",
+        "precio": 19000,
+        "imagen": "imagenes/vela-canela.jpg"
+    }
+
+]
