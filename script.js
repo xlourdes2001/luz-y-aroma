@@ -1,6 +1,7 @@
 const numeroWhatsApp = "542664747024";
 const contenedorProductos = document.querySelector(".productos-container");
 const buscador = document.querySelector("#buscador");
+const mensajeBusqueda = document.querySelector("#mensaje-busqueda");
 
 let productos = [];
 
@@ -11,23 +12,32 @@ const iconosNotificacion = {
     warning: "⚠"
 };
 
-function filtrarProductos(texto) {
-    const productosFiltrados = productos.filter(function(producto) {
-        return producto.nombre.toLowerCase().includes(texto.toLowerCase());
-    });
-     
-      contenedorProductos.innerHTML = "";
 
-    if(productosFiltrados.length === 0){
-      mostrarNotificacion("No se encontraron productos.","info");
-      return;
+function filtrarProductos(texto) {
+    const termino = texto.trim().toLowerCase();
+
+    const productosFiltrados = productos.filter(function(producto) {
+        return producto.nombre.toLowerCase().includes(termino);
+    });
+
+    contenedorProductos.innerHTML = "";
+
+    if (productosFiltrados.length === 0) {
+        mensajeBusqueda.textContent =
+            "No encontramos productos con ese nombre. Probá con otra búsqueda.";
+
+        mensajeBusqueda.hidden = false;
+        return;
     }
+
+    mensajeBusqueda.hidden = true;
 
     productosFiltrados.forEach(function(producto) {
         const tarjeta = crearProducto(producto);
         contenedorProductos.appendChild(tarjeta);
     });
 }
+
 
 function mostrarNotificacion(mensaje, tipo) {
   const notificacion = document.createElement("div");
@@ -49,8 +59,8 @@ function mostrarNotificacion(mensaje, tipo) {
   document.body.appendChild(notificacion);
 
   setTimeout(function () {
-    notificacion.style.animation = "desaparecer 0.3s ease";
-  }, 3000);
+    notificacion.style.animation = "desaparecer 0.3s ease forwards";
+}, 3000);
 
   notificacion.addEventListener("animationend", function (evento) {
     if (evento.animationName === "desaparecer") {
@@ -92,6 +102,23 @@ function consultarProducto(id){
     window.open(url, "_blank");
 }
 
+/*
+
+function consultarProducto(id) {
+    const productoEncontrado = buscarProducto(id);
+
+    if (!productoEncontrado) {
+        mostrarNotificacion("No se encontró el producto.", "error");
+        return;
+    }
+
+    mostrarNotificacion(
+        "¡Gracias por tu interés! Esta función se habilita al configurar los datos del emprendimiento.",
+        "info"
+    );
+}
+
+*/
 
 
 function crearProducto(producto) {
