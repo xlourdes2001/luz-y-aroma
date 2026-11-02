@@ -88,21 +88,21 @@ function crearUrlWhatsApp(mensaje){
     return  "https://wa.me/" + numeroWhatsApp + "?text=" + mensajeCodificado;
 }
 
-function consultarProducto(id){
-    const productoEncontrado = buscarProducto(id);
-    console.log(productoEncontrado);
-    if (!productoEncontrado){
-        mostrarNotificacion("No se encontro el producto", "error");
-        return;
-    }
+// function consultarProducto(id){
+//     const productoEncontrado = buscarProducto(id);
+//     console.log(productoEncontrado);
+//     if (!productoEncontrado){
+//         mostrarNotificacion("No se encontro el producto", "error");
+//         return;
+//     }
 
-    const mensaje = crearMensajeWhatsApp(productoEncontrado);
-    const url = crearUrlWhatsApp(mensaje);
+//     const mensaje = crearMensajeWhatsApp(productoEncontrado);
+//     const url = crearUrlWhatsApp(mensaje);
 
-    window.open(url, "_blank");
-}
+//     window.open(url, "_blank");
+// }
 
-/*
+
 
 function consultarProducto(id) {
     const productoEncontrado = buscarProducto(id);
@@ -118,7 +118,7 @@ function consultarProducto(id) {
     );
 }
 
-*/
+
 
 
 function crearProducto(producto) {
