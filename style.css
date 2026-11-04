@@ -189,8 +189,9 @@ nav a:hover{
 }
 
 #sobre-nosotros{
-    background-color: #f5f5f5;
+    background-color: #fff7f2;
     text-align: center;
+  margin-top: 40px;
     padding: 60px 20px;
 }
 
@@ -228,6 +229,19 @@ footer h2{
 
 footer p{
     margin-top: 20px;
+}
+
+.aviso-imagenes {
+    max-width: 750px;
+    margin: 35px auto 0;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #756b78;
+    background-color: #fffafc;
+    border: 1px solid #704b3c;
+    border-radius: 10px;
 }
 
 @keyframes aparecer{
